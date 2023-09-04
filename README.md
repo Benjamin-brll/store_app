@@ -25,12 +25,15 @@ App to buy some products.
 ## Screenshots
 
 - Authentication
+
 ![Authentication](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 - Buy Cart
+
 ![Buy Cart](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 - Add Favorites
+
 ![Add Favorites](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
