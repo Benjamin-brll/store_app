@@ -20,6 +20,6 @@ App with a list of products.
 
 - Home
 
-![Home](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Home](https://github.com/Benjamin-brll/store_app/blob/master/assets/images/home_page.png)
 
 
