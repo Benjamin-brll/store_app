@@ -1,6 +1,6 @@
 # store_app
 
-App to buy some products.
+App with a list of products.
 
 ## Authors
 
@@ -12,28 +12,14 @@ App to buy some products.
 
 **Client:** Dart, Flutter.
 
-**Server:** Node, Express. [Go to repo](https://github.com/Benjamin-brll)
-
-
 ## Features
 
-- Authentication
-- Buy Cart
-- Add Favorites
-- Cross platform
+- Home
 
 ## Screenshots
 
-- Authentication
+- Home
 
-![Authentication](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-- Buy Cart
-
-![Buy Cart](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-- Add Favorites
-
-![Add Favorites](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Home](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 

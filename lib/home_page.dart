@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:store_app/app_styles.dart';
 import 'package:store_app/size_config.dart';
 
@@ -103,9 +104,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(customBorderRadius),
                     color: customBlack),
-                child: Icon(
-                  Icons.change_circle_outlined,
-                  color: customWhite,
+                child: Container(
+                  padding: const EdgeInsets.all(12.0),
+                  child: SvgPicture.asset(
+                      "assets/filter_icon.svg",
+                      color: customWhite
+                  ),
                 ),
               )
             ],
@@ -199,12 +203,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 fit: BoxFit.cover,
               ),
             ),
-            ListTile(
-              title: Text('Gorro de playa'),
-            ),
             Padding(
               padding: const EdgeInsets.symmetric(
                   horizontal: customPaddingHorizontal),
+              child: ListTile(
+                title: Text('Red T-Shirt'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: customPaddingHorizontal,
+              ),
               child: Row(
                 children: [
                   Expanded(
@@ -217,16 +226,22 @@ class _HomeScreenState extends State<HomeScreen> {
                   SizedBox(
                     width: 12,
                   ),
-                  TextButton(
-                      onPressed: () {},
-                      style: TextButton.styleFrom(
-                        side: BorderSide(
-                          color: Colors.black,
-                          width: 1,
-                        ),
-                        foregroundColor: Colors.black,
+                  Container(
+                    height: 40,
+                    width: 40,
+                    decoration: BoxDecoration(
+                      border: Border.all(color: customBlack),
+                      borderRadius: BorderRadius.circular(customBorderRadius),
+                      color: customWhite,
+                    ),
+                    child: Container(
+                      padding: const EdgeInsets.all(8.0),
+                      child: SvgPicture.asset(
+                          "assets/favorite_icon.svg",
+                          color: customBlack
                       ),
-                      child: Icon(Icons.heart_broken))
+                    ),
+                  )
                 ],
               ),
             )
