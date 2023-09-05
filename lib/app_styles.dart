@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-const Color kBrown = Color(0xff292526);
-const Color kDarkBrown = Color(0xff1b2028);
+const Color customBrown = Color(0xff292526);
+const Color customDarkBrown = Color(0xff1b2028);
 
 const Color customGrey = Color(0xffa4aaad);
 const Color customDarkGrey = Color(0xff878787);

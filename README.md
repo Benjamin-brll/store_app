@@ -1,4 +1,4 @@
-# Store App
+# store_app
 
 App to buy some products.
 
