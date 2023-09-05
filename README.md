@@ -20,6 +20,6 @@ App with a list of products.
 
 - Home
 
-![Home](https://github.com/Benjamin-brll/store_app/blob/master/assets/images/home_page.png)
+![Home](https://github.com/Benjamin-brll/store_app/blob/master/assets/images/home_page.png){width=540 height=1200}
 
 
